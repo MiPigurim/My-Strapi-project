@@ -19,14 +19,11 @@ module.exports = {
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
-      // inserido pelo comentário aula 45
-      requireConfigFile: false,
     },
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-      // inserido 'jsx' pelo comentário aula 45
-  plugins: ['react', 'prettier', 'react-hooks', 'jsx'],
+  plugins: ['react', 'prettier', 'react-hooks'],
   settings: {
     react: {
       version: 'detect',
